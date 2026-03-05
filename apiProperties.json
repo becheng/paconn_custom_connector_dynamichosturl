@@ -1,7 +1,7 @@
 {
   "properties": {
     "connectionParameters": {
-      "hostname": {
+      "<your-host-name-value>": { //The name of the connection parameter, e.g. "abc.com"
         "type": "string",
         "uiDefinition": {
           "displayName": "host name",
@@ -20,7 +20,7 @@
         "templateId": "dynamichosturl",
         "title": "sethosturl",
         "parameters": {
-          "x-ms-apimTemplateParameter.urlTemplate": "https://@connectionParameters('hostname')"
+          "x-ms-apimTemplateParameter.urlTemplate": "https://@connectionParameters('<your-host-name-value>')" //The value of <your-host-name-value> should be the same as the one defined in connectionParameters. For example, if you define "abc.com" in connectionParameters, then the value here should be "https://@connectionParameters('abc.com')"
         }
       }
     ],

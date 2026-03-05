@@ -11,4 +11,6 @@
 5. Run `paconn create --api-prop .\apiProperties.json --api-def .\apiDefinition.swagger.json` 
 6. Follow the prompt to select the power platform environment
 7. Confirm successful creation and check the connector is created in the power platform environment.
+8. Goto the custom connector in the power platform environment and update the security section.  Note: client secret cannot be saved within the above swagger json so this manual step on the portal is always required.  
+9. On successful save of connector, a redirect url will be generated.  Copy the url and update your identity provider with it.
  
