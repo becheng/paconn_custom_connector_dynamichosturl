@@ -6,18 +6,18 @@
     "version": "1.0.0",
     "contact": {
       "name": "{ name of contact person or team }",
-      "url": "{ URL of contact person or team }",
-      "email": "{ email of contact person or team }"
+      "url": "{ URL of contact person or team }",  // e.g. https://abc.com/contacts
+      "email": "{ email of contact person or team }"  // e.g. support@abc.com
     }
   },
   "x-ms-connector-metadata": [
     {
       "propertyName": "Website",
-      "propertyValue": "{ website of the connector }"
+      "propertyValue": "{ website of the connector }" // e.g. https://abc.com/
     },
     {
       "propertyName": "Privacy policy",
-      "propertyValue": "{ privacy policy URL of the connector }"
+      "propertyValue": "{ privacy policy URL of the connector }" // e.g. https://abc.com/privacy
     },
     {
       "propertyName": "Categories",
